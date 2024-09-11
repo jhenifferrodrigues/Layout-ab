@@ -25,6 +25,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    height: 96px;
+    width: 96;
+    background-color: lightgray;
+}
 .menu ul{
     display: flex;
     gap: 32px;
@@ -32,7 +37,7 @@ header{
 }
 main{
     flex-grow: 1;
-    background-color: rgb(255, 255, 255);
+    display: flex;
 }
 .conteudo{
     width: 50%;
@@ -40,30 +45,18 @@ main{
     flex-direction: column;
     justify-content: space-between;
 }
-.destaque{
-    width: 50%;
-    background-color: rgb(181, 192, 192);
-}
-footer{
-    height: 100px;
-    background-color: white;
-}
-.logo{
-    height: 96px;
-    width: 96;
-    background-color: white;
-}
 .conteudo h1{
     font-size: 96px;
 }
 .conteudo p{
     width: 80%;
-    font-size: 48px;
+    font-size: 40px;
 }
 .acao button{
     height: 80px;
-    width: 400px;
-    color: rgb(103, 99, 99);
+    width: 300px;
+    background-color: black;
+    color: white;
     font-size: 32px;
 
 }
@@ -76,5 +69,14 @@ footer{
     height: 96px;
     width: 96px;
     background-color: lightgray;
-    border: 60%;
+    border-radius: 50%;
+}.destaque{
+    width: 50%;
+    background-color: rgb(181, 192, 192);
+}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
